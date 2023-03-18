@@ -9,8 +9,11 @@ public class Tutorial {
   private String title;
   private String description;
   private boolean published;
-  @NotNull
-  @Size(min=2, message="Name should have atleast 2 characters")
+<<<<<<< HEAD
+  /////
+=======
+  
+>>>>>>> 6894fd8 (third commit)
   private String name;
 
   public String getName() {
